@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body{
+  background-color: rgb(0, 38, 74);
+  margin-inline: calc(var(--spacing) * 10);
+}
