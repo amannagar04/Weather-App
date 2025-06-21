@@ -2,5 +2,7 @@
 
 body{
   background-color: rgb(0, 38, 74);
-  margin-inline: calc(var(--spacing) * 10);
+  @media (width >= 48rem /* 768px */) {
+        margin: calc(var(--spacing) * 10) /* 1rem = 16px */;
+    }
 }

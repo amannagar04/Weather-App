@@ -15,7 +15,7 @@ const Clock = () => {
 //  returned element
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-5xl md:text-7xl font-bold">
+      <h1 className="text-4xl md:text-7xl font-bold whitespace-nowrap">
         {currentTime.toLocaleTimeString()}
       </h1>
       <p className="text-sm md:text-md font-medium">
