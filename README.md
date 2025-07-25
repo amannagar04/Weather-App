@@ -1,33 +1,29 @@
-# WEATHER APP PROJECT
 
-=> INSTALLATION
-1. npm create vite@latest weather
-2. tailwindcss installation
-3. packages required: axios, react-toastify
-    npm i axios react-toastify
+# 🌦️ Weather App
 
-=> MAKING
-1. Components
-    - NavBar
-    - Clock.jsx -> useState and useEffect
-2. Assets
-    - Iconfinder
+A dynamic weather forecasting app built using **React**, **Vite**, **Tailwind CSS**, and the **OpenWeather API**. This app displays real-time weather data and includes a live clock, intuitive UI, and toast notifications.
 
-=> Dynamic
-1. API
-    -OpenWeather Key - 1f1433cdbbd15597af571b666b08bc0c
-2. Import react-toastify to App.jsx
+## 🚀 Features
 
-=> Hosting on gh-pages
-1. vite.config.js
-    - base: "/<directory-name>"
-2. package.json
-    - "homepage": "https://amannagar04.github.io/Weather-App/",
-3. Terminal
-    - npm install gh-pages
-4. package.json
-    - scripts
-      - "predeploy": "npm run build",
-      - "deploy": "gh-pages -d dist"
-5. git push origin main
-6. npm run deploy
+- Live weather updates using OpenWeather API  
+- Responsive UI with Tailwind CSS  
+- Real-time clock using React Hooks (`useEffect`, `useState`)  
+- Toast notifications with `react-toastify`  
+- Deployed on GitHub Pages  
+
+## 🌐 Live Version
+This app is hosted on GitHub Pages
+👉 https://amannagar04.github.io/Weather-App/
+
+###
+**API Used**: [OpenWeatherMap](https://openweathermap.org/api) 
+
+
+## 📸 Preview
+  
+![Weather App Screenshot](./public/screenshot.png)
+
+## 👤 Author
+
+**Aman Nagar**  
+GitHub: [@amannagar04](https://github.com/amannagar04)  
